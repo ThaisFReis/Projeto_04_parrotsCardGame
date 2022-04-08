@@ -1,0 +1,104 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #EEF9BF;
+
+    display: block;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+.topo{
+    position: absolute;
+
+    width: 100%;
+    height: 200px;
+
+    margin: auto;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    position: relative;
+
+    margin-top: 30px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 66px;
+    letter-spacing: -0.004em;
+    
+    color: #75B79E;
+}
+
+.corpo{
+    position: relative;
+
+    width: 90%;
+    height: 250px;
+    top: 250px;
+    margin: auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.carta{
+    position: relative;
+
+    width: 200px;
+    height: 229px;
+
+    
+    background: #A7E9AF;
+    border: 1px solid #99CEA8;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    position: relative;
+
+    width: 150px;
+    height: 150px;
+}
+
+@media (max-width: 710px) {
+    
+    .topo{
+        text-align: center;
+    }    
+
+    h1{
+    font-size: 70px;
+
+    }
+}
+
+@media (max-width: 710px) {
+    body{
+        min-width: 430px;
+    }
+
+    .topo{
+        text-align: center;
+    }    
+
+    h1{
+    font-size: 70px;
+    }
+}
